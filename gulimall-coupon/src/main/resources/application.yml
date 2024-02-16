@@ -1,26 +1,22 @@
-# 应用服务 WEB 访问端口
-spring:
-    datasource:
-        username: root
-        password: root
-        driver-class-name: com.mysql.cj.jdbc.Driver
-        url: jdbc:mysql://192.168.239.132:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&useSSL=false
-    cloud:
-        nacos:
-            discovery:
-                server-addr: 127.0.0.1:8848
-    application:
-        name: gulimall-coupon
-mybatis-plus:
-    mapper-locations: classpath:/mapper/**/*.xml
-    global-config:
-        db-config:
-            id-type: auto
-server:
-    port: 7000
-
-coupon:
-    user:
-        name: 张三
-        age: 20
-
+## 应用服务 WEB 访问端口
+#spring:
+#    datasource:
+#        username: root
+#        password: root
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+#        url: jdbc:mysql://192.168.239.133:3306/gulimall_sms?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai&useSSL=false
+#    cloud:
+#        nacos:
+#            discovery:
+#                server-addr: 127.0.0.1:8848
+#    application:
+#        name: gulimall-coupon
+#mybatis-plus:
+#    mapper-locations: classpath:/mapper/**/*.xml
+#    global-config:
+#        db-config:
+#            id-type: auto
+#server:
+#    port: 7000
+#
+#

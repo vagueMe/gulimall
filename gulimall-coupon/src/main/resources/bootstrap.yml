@@ -5,4 +5,19 @@ spring:
     nacos:
       config:
         server-addr: localhost:8848
+        namespace: aa265fb4-ed89-4eb2-9ff5-010446417df4
+        group: dev
+        ext-config[0]:
+          data-id: datasource.yml
+          group: dev
+          refresh: true
+        ext-config[1]:
+          data-id: mybatis.yml
+          group: dev
+          refresh: true
+        ext-config[2]:
+          data-id: other.yml
+          group: dev
+          refresh: true
+
 
